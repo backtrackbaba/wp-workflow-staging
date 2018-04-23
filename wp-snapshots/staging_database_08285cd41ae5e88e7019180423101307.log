@@ -1,0 +1,81 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: April 23, 2018 10:13 am
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.2.34
+WORDPRESS:	4.9.5
+PHP INFO:	7.0.27 | SAPI: fpm-fcgi
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 2048M (128M default) 
+MEMORY STACK: 4MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported 
+FILTERED: [] 
+RESPONSE: mysqldump: [Warning] Using a password on the command line interface can be insecure.
+ 
+TABLES: total:13 | filtered:0 | create:13 
+SQL CREATED: staging_database_08285cd41ae5e88e7019180423101307_database.sql 
+SQL FILE SIZE: 442.87KB (453495) 
+SQL FILE TIME: 2018-04-23 10:13:11 
+SQL RUNTIME: 0.05 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  /opt/bitnami/apps/wordpress/htdocs 
+ARCHIVE FILE: staging_database_08285cd41ae5e88e7019180423101307_archive.zip 
+FILTERS: *OFF* 
+DIRS:
+	not set 
+FILES:
+	not set 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	0B 
+STATS:	Dirs 0 | Files 0 
+SQL ADDED: staging_database_08285cd41ae5e88e7019180423101307_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 1
+    [filename] => /opt/bitnami/apps/wordpress/htdocs/wp-snapshots/tmp/staging_database_08285cd41ae5e88e7019180423101307_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 95.72KB 
+ARCHIVE RUNTIME: 0.07 sec. 
+MEMORY STACK: 4MB 
+
+******************************************************************************** 
+MAKE INSTALLER: 
+******************************************************************************** 
+Build Start 
+Build Finished 
+Preping for use 
+PACK SIZE:  
+Template parsed with new data 
+Complete [/opt/bitnami/apps/wordpress/htdocs/wp-snapshots/tmp/staging_database_08285cd41ae5e88e7019180423101307_installer.php] 
+Added to archive 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL File: 442.87KB 
+Installer File: 445.25KB 
+Archive File: 95.72KB  
+
+********************************************************************************
+RECORD ID:[2]
+TOTAL PROCESS RUNTIME: 0.24 sec.
+PEAK PHP MEMORY USED: 6MB
+DONE PROCESSING => staging_database April 23, 2018 10:13 am
+ 
